@@ -18,7 +18,7 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    private static final String SECRET_KEY="self learning spring security";
+    private static final String SECRET_KEY="73656C66206C6561726E696E6720737072696E67207365637572697479";
     public String extractUsername(String token){
         return extractClaim(token,Claims::getSubject);
     }
